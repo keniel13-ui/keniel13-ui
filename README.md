@@ -1,16 +1,70 @@
-## Hi there 👋
+ # Keniel Maldonado
 
-<!--
-**keniel13-ui/keniel13-ui** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+  Building **Self-Correcting Systems**: tools and research for AI memory reliability,
+  authority auditing, and verification gates.
 
-Here are some ideas to get you started:
+  Current focus:
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+  > Relevance is not authority.
+
+  AI systems can retrieve context that is semantically relevant but not allowed to govern
+  an action. My work explores how agent memory should track authority, freshness, scope,
+  corrections, and verification requirements before tool use.
+
+  ## Live Work
+
+  ### AI Memory Authority Auditor
+
+  A deployed multi-agent web app that audits `AGENTS.md`, `CLAUDE.md`, Cursor rules, SOPs,
+  and project memory files for stale instructions, authority conflicts, and verification
+  gates.
+
+  - Live app: https://memory-authority-auditor-web-992750435781.us-central1.run.app
+  - DEV submission:
+  https://dev.to/zep1997/i-built-a-multi-agent-authority-auditor-for-ai-memory-files-1hb0
+  - Architecture: one Cloud Run web service plus six specialized agent services.
+
+  Agent roles:
+
+  - Memory Extractor
+  - Authority Classifier
+  - Conflict Detector
+  - Verification Gate Agent
+  - Authority Mapper
+  - Report Writer
+
+  ### AI Memory Judgment Demo
+
+  A public research harness for testing whether memory retrieval systems select the memory
+  that is authorized to govern an action, not only the memory that is most relevant.
+
+  - Repo: https://github.com/keniel13-ui/ai-memory-judgment-demo
+  - Includes lexical retrieval tests, embedding comparison, role-filter experiments, scope
+  metadata tests, action-type arbitration, claim ledger, validity threats, and audit
+  materials.
+
+  ## Public Writing
+
+  I write in public on DEV about AI memory, correction memory, uncertainty, authority
+  arbitration, and production agent reliability.
+
+  - DEV profile: https://dev.to/zep1997
+  - Start here: https://dev.to/zep1997/start-here-my-ai-memory-research-so-far-4m4k
+
+  ## Current Thesis
+
+  Production agent memory needs more than recall.
+
+  It needs:
+
+  - authority labels
+  - status and freshness
+  - scope boundaries
+  - source-of-truth pointers
+  - verification gates
+  - audit traces
+  - human review for sensitive actions
+
+  Memory is input.
+
+  Authority is the action boundary.
