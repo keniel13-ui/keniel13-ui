@@ -1,7 +1,7 @@
  # Keniel Maldonado
 
-  Building **Self-Correcting Systems**: tools and research for AI memory reliability,
-  authority auditing, and verification gates.
+  Building **Self-Correcting Systems**: tools and research for AI agent memory reliability,
+  authority auditing, freshness checks, and action-safe automation.
 
   Current focus:
 
@@ -10,6 +10,15 @@
   AI systems can retrieve context that is semantically relevant but not allowed to govern
   an action. My work explores how agent memory should track authority, freshness, scope,
   corrections, and verification requirements before tool use.
+
+  ## Current Proof Points
+
+  - 27 public research claims on AI memory reliability and authority boundaries.
+  - A live Memory Authority Auditor built with six specialized agent services.
+  - A public research harness with claim ledger, preregistrations, evaluators, ablations,
+  and validity notes.
+  - Recent work on signed-and-fresh grants, paired authority/action logs, and scope-
+  soundness boundaries.
 
   ## Live Work
 
@@ -40,8 +49,8 @@
 
   - Repo: https://github.com/keniel13-ui/ai-memory-judgment-demo
   - Includes lexical retrieval tests, embedding comparison, role-filter experiments, scope
-  metadata tests, action-type arbitration, claim ledger, validity threats, and audit
-  materials.
+  metadata tests, action-type arbitration, freshness gates, paired action logs, claim
+  ledger, validity threats, and audit materials.
 
   ## Public Writing
 
@@ -51,9 +60,10 @@
   - DEV profile: https://dev.to/zep1997
   - Start here: https://dev.to/zep1997/start-here-my-ai-memory-research-so-far-4m4k
 
-  ## Current Thesis
+  ## Working Thesis
 
-  Production agent memory needs more than recall.
+  Production agent memory needs more than recall. Once agents can remember, use tools, and
+  act across time, they need a trust layer around memory itself.
 
   It needs:
 
